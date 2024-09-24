@@ -145,7 +145,7 @@ function App() {
                       </Card>
                     </Col>
                   </Row>   
-                  <Row className='mt-5'>
+                  <Row className='mt-5 mb-5'>
                     <Col>
                       <h2 className='text-center text-white'>Book Your Table</h2>
                       <Form>
@@ -170,7 +170,7 @@ function App() {
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                           <Form.Control as="textarea" rows={3} placeholder="Please write your comment..." />
                         </Form.Group>
-                        <Button variant="danger" type="Send messenger">Submit</Button>
+                        <Button variant="warning" type="submit">Send messenge</Button>
                       </Form>
                     </Col>
                   </Row>
