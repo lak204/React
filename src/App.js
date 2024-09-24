@@ -24,7 +24,7 @@ function App() {
                           navbarScroll
                         >
                           <Nav.Link href="#home">Home</Nav.Link>
-                          <Nav.Link href="#about-us">About us</Nav.Link>
+                          <Nav.Link href="#about-us">About Us</Nav.Link>
                           <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
