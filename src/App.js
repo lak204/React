@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { Col, Container, Form, Row, Navbar, Nav, Button, Carousel, Card } from 'react-bootstrap';
-
+import SearchIcon from '@mui/icons-material/Search';
 function App() {
   return (
     <>
@@ -34,7 +34,7 @@ function App() {
                             className="me-2"
                             aria-label="Search"
                           />
-                          <Button variant="danger"><i className='fa fa-search'></i></Button>
+                          <Button variant="danger"><SearchIcon/> </Button>
                         </Form>
                       </Navbar.Collapse>
                     </Container>
